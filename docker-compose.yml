@@ -1,0 +1,21 @@
+version: '3.6'
+
+services:
+  openwebui:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: openwebui-development
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Berlin
+      - WEBUI_SECRET_KEY=${WEBUI_SECRET_KEY}
+    ports:
+      - 8080:8080
+    volumes:
+      - ./data/openwebui:/app/backend/data
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

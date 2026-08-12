@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-openwebui",
+  "repo": "vergissberlin/railwayapp-openwebui",
+  "displayName": "Open WebUI",
+  "publishedCode": "openwebui",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-openwebui/main/template-header.svg",
+  "description": "Self-hosted web UI for chatting with local and remote LLMs.",
+  "workspaceAutomation": true,
+  "badge": {
+    "label": "Open WebUI",
+    "color": "D68E42",
+    "logo": "ollama"
+  }
+}
