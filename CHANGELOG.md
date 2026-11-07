@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/vergissberlin/railwayapp-openwebui/compare/railwayapp-openwebui-v0.2.2...railwayapp-openwebui-v0.2.3) (2026-11-07)
+
+
+### Chores
+
+* **deps:** update ghcr.io/open-webui/open-webui docker tag to v0.13.0 ([8fb7bc5](https://github.com/vergissberlin/railwayapp-openwebui/commit/8fb7bc57dc492cee077af6c4a1e49492296b964f))
+
 ## [0.2.2](https://github.com/vergissberlin/railwayapp-openwebui/compare/railwayapp-openwebui-v0.2.1...railwayapp-openwebui-v0.2.2) (2026-10-30)
 
 
