@@ -1,4 +1,4 @@
-ARG VERSION=v0.13.0
+ARG VERSION=v0.13.3
 
 FROM ghcr.io/open-webui/open-webui:${VERSION}
 
